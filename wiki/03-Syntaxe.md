@@ -137,6 +137,8 @@ export class Car {
 }
 ```
 
+### 🏷️ **Utilisation**
+
 Pour manipuler un attribut dans la classe il faut utiliser le mot this, en dehors il faut évidement utiliser l'objet le possédant.
 
 ```js
@@ -192,6 +194,8 @@ export class Car {
 
 }
 ```
+
+### 🏷️ **Utilisation**
 
 Uné méthode peut accéder aux attributs et aux autres méthodes via le mot `this` et peut posséder des variables locales, disponibles dans la méthode uniquement, comme ses arguments par exemple.
 
@@ -267,6 +271,9 @@ export class Foo {
 
 }
 ```
+
+
+### 🏷️ **Utilisation**
 
 L'appel de la méthode ne se fait plus à partir de l'objet mais à partir de la classe.
 

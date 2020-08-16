@@ -1,4 +1,4 @@
-# JavaScript
+# JavaScript Object
 
 ## Durée
 
