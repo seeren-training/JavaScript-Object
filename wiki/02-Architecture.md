@@ -5,6 +5,7 @@
 *  🔖 **Model**
 *  🔖 **Service**
 
+> L'objectif de ce chapitre est de nous sensibiliser à l'organisation d'un programme celon une architecture orientée composant en détaillant la responsabilité des couches à utiliser.
 ___
 
 ## 📑 Problème

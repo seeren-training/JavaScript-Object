@@ -58,7 +58,7 @@ Voyez la classe comme un modèle de code dont vous pouvez obtenir un exemplaire.
 const foo = new Foo();
 ```
 
-En instanciant notre classe, un objet est construit. L'avantage est qu'une classe stock des états avec les variables/attributs et des comportements avec des méthodes. Nous pourrons alors faire varier ces états unitairement en utilisant l'objet. Ceux de la classe restent intactes.
+En instanciant notre classe, un objet est construit. L'avantage est qu'une classe stock des états avec les variables/attributs et des comportements avec des méthodes. Nous pourrons alors faire varier ces états unitairement en utilisant l'objet. 
 
 
 ![image](https://raw.githubusercontent.com/seeren-training/JavaScript-Object/master/wiki/resources/object.jpg)
@@ -114,7 +114,7 @@ ___
 
 👨🏻‍💻 Manipulation
 
-Déclarez et exportez les classes pour les fichiers que vous avez créé précédemment. Pour les components et les services, utilisez cette terminologie en suffixe (HomeComponent, CarService). Déclarez un constructeur dans chaque classe.
+**Déclarez et exportez les classes** pour les fichiers que vous avez créé précédemment. Pour les components et les services, utilisez cette terminologie en suffixe (HomeComponent, CarService). **Déclarez un constructeur** dans chaque classe.
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 👨🏻‍💻 Manipulation
 
-Déclarez et documentez les attributs de vos modèles. Vérifiez votre syntaxe en exécutant votre programme et en logant leur instances.
+**Déclarez et documentez les attributs de vos modèles**. Vérifiez votre syntaxe en exécutant votre programme et en **logant leur instances**.
 
 ___
 
@@ -224,39 +224,37 @@ ___
 
 ## 📑 Manipulation
 
-C'est un moment important sur lequel nous prendrons le temps. Il faut adapter nos connaissances syntaxiques aux nouvelles acquises.
-
-### 👨🏻‍💻 **Services**
-
-Souvenez vous de la responsabilité de la couche service.
-
-* Proposer dans vos services des signatures de méthodes utiles pour la gestion des models.
-* Discutons en, soyez créatifs nous sommes en conception.
-* Implémentez les solutions retenues et vérifiez les en exécutant votre code.
+C'est un moment important sur lequel nous prendrons le temps. Il faut adapter nos connaissances syntaxiques aux nouvelles acquises. Pour ces différentes manipulations n'intégrez pas la thématique HTTP.
 
 ### 👨🏻‍💻 **Components**
 
 Souvenez vous de la responsabilité de la couche component.
 
-* Proposer dans vos composants une méthode utile pour l'affichage.
-* Discutons en, soyez créatifs nous sommes en conception.
-* Implémentez les solutions retenues en utilisant certainement la couche service et model vérifiez les en exécutant votre code.
+* Proposer dans vos composants **une méthode** responsable de faire un rendu graphique.
+* Implémentez la solutions retenues en utilisant certainement la couche model.
 
-Cette fois çi, un affichage doit avoir lieu.
+Un affichage doit avoir lieu.
 
 ### 👨🏻‍💻 **Templates**
 
 La mise en forme peut embouteiller vos composants, souvenez vous de l'import/export.
 
-* Proposer une solution afin de séparer le template du component afin qu'il l'utilise.
-* Discutons en, soyez très créatifs nous sommes en conception.
-* Implémentez les solutions retenues en utilisant certainement la couche service et model vérifiez les en exécutant votre code.
+* Proposer une solution afin de **séparer le template du component**.
+* Implémentez la solutions retenues en utilisant certainement la couche modele.
+
+### 👨🏻‍💻 **Services**
+
+Souvenez vous de la responsabilité de la couche service.
+
+* Proposer dans vos services des méthodes utiles pour la gestion des models.
+* Implémentez les solutions retenues et vérifiez les en exécutant votre code.
+* Utilisez vos services dans les composants.
 
 ___
 
 ## 📑 Staticité
 
-Vous êtes face à un problème de partage de référence. Les composants doivent partager la même instance d'un service pour partager la même donnée et que les affichages et manipulations soient cohérente. La solution est de passer en argument l’instance partagé mais cela peut être complexe.
+Vous êtes face à un problème de partage de référence. Les composants doivent partager la même instance d'un service pour partager la même donnée et que les affichages et manipulations soient cohérente. La staticité peut nous aider à résoudre ce pronblème.
 
 ### 🏷️ **Déclaration**
 
@@ -281,7 +279,7 @@ L'appel de la méthode ne se fait plus à partir de l'objet mais à partir de la
 Foo.hello();
 ```
 
-Comme une méthode statique appartient à la classe, la méthode n'a pas connaissance avec l'instance en cours de manipulation et ne peut utiliser le mot this. En l’absence du this, il faut utiliser des variables et les portées pour maintenir un état pour la classe.
+Comme une méthode statique appartient à la classe, la méthode n'a pas connaissance de l'instance en cours de manipulation et ne peut utiliser le mot this. En l’absence du this, il faut utiliser des variables et les portées pour maintenir un état pour la classe.
 
 ```js
 const data = {};
@@ -295,8 +293,11 @@ export class Foo {
 }
 ```
 
+Avec cette solution, la donnée accédée de façon statique peut être la même partout à travers l'application car elle appartient à la classe et pas à l'objet.
+
 ___
 
 👨🏻‍💻 Manipulation
 
-Utilisez la staticité pour régler votre problème de partage des données entre les composants. Utilisez les requêtes HTTP pour stocker vos données et rendre votre application fonctionnelle.
+**Utilisez la staticité** pour régler votre problème de partage des données entre les composants.
+En dehors de la problématique des requêtes HTTP,**rendez votre application fonctionnelle** en intégrant les évènements. Prenez le temps pour répéter la manipulation de composants, de modèles et prennez de l'aisance sur cette nouvelle syntaxe.

@@ -5,6 +5,7 @@
 *  🔖 **Bundler**
 *  🔖 **Installation**
 
+> Ce chapitre à l'objectif de nous faire comprendre les enjeuts de la compilation du langage JavaScript, la notion de bundler et l'installation d'outils nous permettant de compiler et d'assembler.
 ___
 
 ## 📑 [ES6](https://www.ecma-international.org/ecma-262/6.0/index.html)
