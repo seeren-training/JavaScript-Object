@@ -254,7 +254,7 @@ ___
 
 ## 📑 Staticité
 
-Vous êtes face à un problème de partage de référence. Les composants doivent partager la même instance d'un service pour partager la même donnée et que les affichages et manipulations soient cohérente. La staticité peut nous aider à résoudre ce pronblème.
+Vous êtes face à un problème de partage de référence. Les composants doivent partager la même instance d'un service pour partager la même donnée et que les affichages et manipulations soient cohérente. La staticité peut nous aider à résoudre ce problème.
 
 ### 🏷️ **Déclaration**
 
@@ -300,4 +300,4 @@ ___
 👨🏻‍💻 Manipulation
 
 **Utilisez la staticité** pour régler votre problème de partage des données entre les composants.
-En dehors de la problématique des requêtes HTTP,**rendez votre application fonctionnelle** en intégrant les évènements. Prenez le temps pour répéter la manipulation de composants, de modèles et prennez de l'aisance sur cette nouvelle syntaxe.
+En dehors de la problématique des requêtes HTTP,**rendez votre application fonctionnelle** en intégrant les évènements. Prenez le temps pour répéter la manipulation de composants, de modèles et prenez de l'aisance sur cette nouvelle syntaxe.

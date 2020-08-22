@@ -5,12 +5,12 @@
 *  🔖 **Bundler**
 *  🔖 **Installation**
 
-> Ce chapitre à l'objectif de nous faire comprendre les enjeuts de la compilation du langage JavaScript, la notion de bundler et l'installation d'outils nous permettant de compiler et d'assembler.
+> Ce chapitre à l'objectif de nous faire comprendre les enjeux de la compilation du langage JavaScript, la notion de bundler et l'installation d'outils nous permettant de compiler et d'assembler.
 ___
 
 ## 📑 [ES6](https://www.ecma-international.org/ecma-262/6.0/index.html)
 
-ES6 est la 6 ème version du standard ECMA Script. Cette version apporte un lot de nouvelles fonctionnalités dont cette partie tente de décrire les problématiques qu'elle soulève et des solutions à mettre en place.
+ES6 est la 6ème version du standard ECMA Script. Cette version apporte un lot de nouvelles fonctionnalités dont cette partie tente de décrire les problématiques qu'elle soulève et des solutions à mettre en place.
 
 ![image](https://raw.githubusercontent.com/seeren-training/JavaScript-Object/master/wiki/resources/js-classes.jpg)
 
@@ -20,7 +20,7 @@ ECMAScript est un ensemble de normes concernant les langages de programmation de
 
 Nommée ES2015, la version d'ECMAScript 6 a été publiée en juin 2015
 
-**Son support par les navigateurs évolue progressivement**, mais il est possible d'utiliser un transcompilateur (tel que Babel) vers ES5 pour développer dès aujourd'hui en ES6. 
+**Son support par les navigateurs évolue progressivement**, mais il est possible d'utiliser un compilateur (tel que Babel) vers ES5 pour développer dès aujourd'hui en ES6. 
 
 ### 🏷️ **Compatibilité**
 
@@ -30,13 +30,13 @@ ___
 
 ## 📑 [Transpiller](https://babeljs.io/)
 
-Un compilateur source à source, transpileur ou transcompilateur est un type de compilateur qui prend le code source d'un langage de programmation et le compile dans un autre langage de programmation.
+Un compilateur source à source, transpileur ou compilateur est un type de compilateur qui prend le code source d'un langage de programmation et le compile dans un autre langage de programmation.
 
 ![image](https://raw.githubusercontent.com/seeren-training/JavaScript-Object/master/wiki/resources/babel.png)
 
 ### 🏷️ **Babel**
 
-Avec babel, le code que vous écrivez est transformé et ne s'exécute pas directement. L'impact est qu'il faut compiller à chaque fois que vous modifiez votre code, cela nécessite alors un process en ode développement.
+Avec babel, le code que vous écrivez est transformé et ne s'exécute pas directement. L'impact est qu'il faut compiler à chaque fois que vous modifiez votre code, cela nécessite alors un process en ode développement.
 
 ![image](https://raw.githubusercontent.com/seeren-training/JavaScript-Object/master/wiki/resources/compile.png)
 
