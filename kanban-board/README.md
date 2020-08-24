@@ -1,8 +1,4 @@
-# Kanban board
-
-## Component Based Architecture
-
-CF Angular style guide
+# Kanban Board
 
 ### **Components**
 
@@ -24,3 +20,33 @@ src
             |_task.component.scss
 
 ```
+
+
+### **Models**
+
+```bash
+src
+|_app.js
+|_app.scss
+|_shared
+    |_models
+        |_column.model.js
+        |_task.model.js
+```
+
+### **Services**
+
+```bash
+src
+|_app.js
+|_app.scss
+|_shared
+    |_services
+        |_column.service.js
+        |_task.service.js
+```
+
+
+
+
+
