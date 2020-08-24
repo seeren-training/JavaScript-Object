@@ -48,6 +48,15 @@ console.log(Foo);
 
 > Utiliser au maximum l'autocomplétion de votre IDE pour ne pas avoir à écrire l'import.
 
+___
+
+👨🏻‍💻 Manipulation
+
+**Déclarez et exportez les classes** pour les fichiers que vous avez créé précédemment. Pour les components et les services, utilisez cette terminologie en suffixe (HomeComponent, CarService).
+
+___
+
+
 ### 🏷️ **Instanciation**
 
 Voyez la classe comme un modèle de code dont vous pouvez obtenir un exemplaire. Un prototype que l'on ne manipule pas et dont l'on souhaite un exemplaire.
@@ -72,7 +81,16 @@ polo.type = "Polo";
 const mini = new Car();
 mini.type = "Mini";
 ```
+
 L'attribut de la classe reste neutre et sa valeur inchangé quand une instance, un objet est manipulé.
+
+___
+
+👨🏻‍💻 Manipulation
+
+Instanciez un model pour constater que votre syntaxe est correcte.
+
+___
 
 ### 🏷️ **Constructeur**
 
@@ -114,7 +132,7 @@ ___
 
 👨🏻‍💻 Manipulation
 
-**Déclarez et exportez les classes** pour les fichiers que vous avez créé précédemment. Pour les components et les services, utilisez cette terminologie en suffixe (HomeComponent, CarService). **Déclarez un constructeur** dans chaque classe.
+**Déclarez un constructeur** dans chaque classe.
 
 ___
 
@@ -168,7 +186,7 @@ ___
 
 👨🏻‍💻 Manipulation
 
-**Déclarez et documentez les attributs de vos modèles**. Vérifiez votre syntaxe en exécutant votre programme et en **logant leur instances**.
+Déclarez et documentez les attributs de vos modèles, de vos services et de vos components. Affectez les bonnes valeurs en vous rappelant des responsabilités. Vérifiez votre syntaxe en exécutant votre programme et en **logant leur instances**.
 
 ___
 
@@ -233,7 +251,7 @@ Souvenez vous de la responsabilité de la couche component.
 * Proposer dans vos composants **une méthode** responsable de faire un rendu graphique.
 * Implémentez la solutions retenues en utilisant certainement la couche model.
 
-Un affichage doit avoir lieu.
+Un affichage complet doit avoir lieu.
 
 ### 👨🏻‍💻 **Templates**
 
