@@ -1,28 +1,32 @@
-# Service
+# Kanban Board
 
-## Template update
- * button `add`
- * button `remove` sur chaque column
+## Install
 
-## addEventListener
- * Cherche l'élément dans le document (dans le composant)
- * `addEventListener` pose un problème, vous evez fixer la valeur du this avec une fonction flechée.
+Download the repository
 
-```js
-culumn.addEventListener("click", () => {
-this.removeColumn();
-});
- ```
-##
+```bash
+git clone https://github.com/seeren-training/JavaScript-Object
+```
 
-* Add: au click ça ajoute une column et l'affichage se rafraichit.
-    * Vous devez utiliser le service pour créer une column.
-    * Appeler display relance l'affichage (attention à innerHTML += qui ajoute au lien de remplacer le  contenu)
+Change the directory
 
+```bash
+cd kanban-board
+```
+Install packages
 
+```bash
+npm install
+```
 
+## Run
 
+Start the server
 
+```bash
+npm start
+```
 
+## Demo
 
-
+https://seeren-training.github.io/JavaScript-Object/kanban-board/
