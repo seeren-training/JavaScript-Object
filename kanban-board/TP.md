@@ -48,6 +48,8 @@ ___
 
 📝 Onclick the '**delete**' button must `remove a column` on the column list then `refresh the column list view`.
 
+📝 The column title must be **editable**.
+
 💣 Take care about the `this` value when you do not use arrow functions!
 
 *~Thank's DOM~*
