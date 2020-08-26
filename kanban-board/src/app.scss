@@ -1,3 +1,23 @@
+@import "~material-design-icons/iconfont/material-icons.css";
+@import "~materialize-css/dist/css/materialize.css";
+
+@import "./main-board/main-board.component.scss";
+
+body,
+main {
+    display: flex;
+    overflow: hidden;
+}
+
 body {
-    background: chocolate;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.page-footer {
+    padding-top: 0;
 }

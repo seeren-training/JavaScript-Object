@@ -1,0 +1,59 @@
+.add-column {
+    z-index: 9;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 70%);
+    position: fixed;
+    right: 0;
+    top: 4.5em;
+    height: calc(100vh - 9em);
+    padding: 0 1em 0 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.column-list {
+    .row {
+        display: flex;
+        margin: 1em 0;
+    }
+    .col {
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+    .card {
+        overflow-y: auto;
+        height: calc(100vh - 13em);
+    }
+    .card-content {
+        padding: 1em;
+    }
+    .card-action {
+        padding: 0.5em;
+        margin: 0;
+    }
+    .input-field {
+        margin-top: 0em;
+        padding-bottom: 0.7em;
+        padding-top: 1.2em;
+        label {
+            margin-top: 1.2em;
+        }
+        .btn {
+            float: right;
+            font-size: 0.5rem !important;
+            width: 50px;
+            height: 20px;
+            padding: 0.2rem;
+            line-height: 1rem;
+        }
+    }
+    .btn-floating {
+        float: right;
+        height: 20px;
+        width: 20px;
+        line-height: 1.2em !important;
+        i {
+            line-height: 1.2em !important;
+            font-size: 0.7em;
+        }
+    }
+}
