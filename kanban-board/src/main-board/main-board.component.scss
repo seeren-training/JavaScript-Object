@@ -6,4 +6,26 @@
     width: 100vw;
     overflow-x: auto;
     flex: 1 0 auto;
+    .row {
+        display: flex;
+        margin: 1em 0;
+        .col {
+            margin-left: 0 !important;
+            .card {
+                overflow-y: auto;
+                height: calc(100vh - 13em);
+            }
+            .card-title {
+                margin: 0 !important;
+                line-height: 42px;
+            }
+            .card-content {
+                padding: 1em;
+            }
+            .card-action {
+                padding: 0.5em;
+                margin: 0;
+            }
+        }
+    }
 }

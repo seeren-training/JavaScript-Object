@@ -2,22 +2,20 @@
 @import "~materialize-css/dist/css/materialize.css";
 
 @import "./main-board/main-board.component.scss";
+@import "./shared/components/progress.component.scss";
 
 body,
 main {
     display: flex;
     overflow: hidden;
 }
-
 body {
     min-height: 100vh;
     flex-direction: column;
 }
-
 main {
     flex: 1 0 auto;
 }
-
 .page-footer {
     padding-top: 0;
 }

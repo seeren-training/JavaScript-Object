@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 import { ColumnListComponent } from "./column-list/column-list.component";
 
 import { template } from './main-board.component.html';
@@ -14,7 +16,7 @@ export class MainBoardComponent {
     }
 
     display() {
-        document.querySelector("main").innerHTML = template();
+        $("main").html(template());
         this.columnList.display();
     }
 
