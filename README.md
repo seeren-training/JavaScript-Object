@@ -4,11 +4,9 @@
 
 35 heures
 
-___
+## Public concerné
 
-## Prérequis
-
-Avoir participé au module JavaScript
+Développeurs, architectes et chefs de projets techniques.
 
 ___
 
