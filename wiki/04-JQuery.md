@@ -1,4 +1,4 @@
-# [JQuery](https://jquery.com/)
+# JQuery
 
 *  🔖 **Introduction**
 *  🔖 **Fonction**
