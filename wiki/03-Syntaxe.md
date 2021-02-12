@@ -16,9 +16,8 @@ Donc c'est un espace de code identifié pour stocker des variables et des foncti
 
 ### 🏷️ **Nommage**
 
-* Les classes se nomment en utilisant le `PascalCase`.
-
-* Les fichiers se nomment en utilisant le `kebab-case`.
+* Les classes se nomment en utilisant le PascalCase.
+* Les fichiers se nomment en utilisant le kebab-case.
 
 ### 🏷️ **Déclaration**
 
@@ -30,15 +29,15 @@ class MyClass { }
 
 ### 🏷️ **Import/export**
 
-Dans le fichier d'une classe vous allez pouvoir déclarer des variables/attributs et des fonctions/méthodes. Mais vous ne voulez pas utiliser directement la classe dans ce fichier. Vous voulez généralement utiliser une classe dans un autre fichier que celui ou elle est déclarée. `L'import/export est utile pour utiliser un membre importé depuis un autre fichier ou il est exporté`.
+Dans le fichier d'une classe vous allez pouvoir déclarer des variables/attributs et des fonctions/méthodes. Mais vous ne voulez pas utiliser directement la classe dans ce fichier. Vous voulez généralement utiliser une classe dans un autre fichier que celui ou elle est déclarée. L'import/export est utile pour utiliser un membre importé depuis un autre fichier ou il est exporté.
 
-*foo.js*
+* foo.js
 
 ```js
 export class Foo { }
 ```
 
-*index.js*
+* index.js
 
 ```js
 import { Foo } from './foo';
@@ -52,7 +51,7 @@ ___
 
 👨🏻‍💻 Manipulation
 
-**Déclarez et exportez les classes** pour les fichiers que vous avez créé précédemment. Pour les components et les services, utilisez cette terminologie en suffixe (HomeComponent, CarService).
+Déclarez et exportez les classes pour les fichiers que vous avez créé précédemment. Pour les components et les services, utilisez cette terminologie en suffixe (HomeComponent, CarService).
 
 ___
 
@@ -70,7 +69,7 @@ const foo = new Foo();
 En instanciant notre classe, un objet est construit. L'avantage est qu'une classe stock des états avec les variables/attributs et des comportements avec des méthodes. Nous pourrons alors faire varier ces états unitairement en utilisant l'objet. 
 
 
-![image](https://raw.githubusercontent.com/seeren-training/JavaScript-Object/master/wiki/resources/object.jpg)
+![image](https://raw.githubusercontent.com/seeren-training/JavaScript-Object/master/wiki/resources/object.png)
 
 Par exemple une classe Car peut produire de nombreuses Cars différentes qui se distingues par des états différents, donc une valeur différente pour un attribut déclarés dans la classe.
 
@@ -132,7 +131,7 @@ ___
 
 👨🏻‍💻 Manipulation
 
-**Déclarez un constructeur** dans chaque classe.
+Déclarez un constructeur dans chaque classe.
 
 ___
 
@@ -240,27 +239,25 @@ start(delay) {
 
 ___
 
-## 📑 Manipulation
+👨🏻‍💻 Manipulation
 
 C'est un moment important sur lequel nous prendrons le temps. Il faut adapter nos connaissances syntaxiques aux nouvelles acquises. Pour ces différentes manipulations n'intégrez pas la thématique HTTP.
 
-### 👨🏻‍💻 **Components**
+### 🏷️ Components**
 
 Souvenez vous de la responsabilité de la couche component.
 
-* Proposer dans vos composants **une méthode** responsable de faire un rendu graphique.
+* Proposer dans vos composants une méthode responsable de faire un rendu graphique.
 * Implémentez la solutions retenues en utilisant certainement la couche model.
 
-Un affichage complet doit avoir lieu.
-
-### 👨🏻‍💻 **Templates**
+### 🏷️ **Templates**
 
 La mise en forme peut embouteiller vos composants, souvenez vous de l'import/export.
 
-* Proposer une solution afin de **séparer le template du component**.
+* Proposer une solution afin de séparer le template du component.
 * Implémentez la solutions retenues en utilisant certainement la couche modele.
 
-### 👨🏻‍💻 **Services**
+### 🏷️ **Services**
 
 Souvenez vous de la responsabilité de la couche service.
 
@@ -287,7 +284,6 @@ export class Foo {
 
 }
 ```
-
 
 ### 🏷️ **Utilisation**
 
@@ -317,5 +313,5 @@ ___
 
 👨🏻‍💻 Manipulation
 
-**Utilisez la staticité** pour régler votre problème de partage des données entre les composants.
-En dehors de la problématique des requêtes HTTP,**rendez votre application fonctionnelle** en intégrant les évènements. Prenez le temps pour répéter la manipulation de composants, de modèles et prenez de l'aisance sur cette nouvelle syntaxe.
+Utilisez la staticité pour régler votre problème de partage des données entre les composants.
+En dehors de la problématique des requêtes HTTP,rendez votre application fonctionnelle en intégrant les évènements. Prenez le temps pour répéter la manipulation de composants, de modèles et prenez de l'aisance sur cette nouvelle syntaxe.

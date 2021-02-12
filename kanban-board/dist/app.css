@@ -9103,5 +9103,85 @@ input[type=range]::-ms-thumb {
   }
 }
 
-.add-column{z-index:9;background:linear-gradient(90deg, rgba(255,255,255,0) 0%, #fff 70%);position:fixed;right:0;top:4.5em;height:calc(100vh - 9em);padding:0 1em 0 1.5em;display:flex;align-items:center}.column-list input{line-height:32px !important;font-size:24px !important;font-weight:300;margin-bottom:0 !important}.column-list .card .btn-floating{float:right;height:20px;width:20px;line-height:1.2em !important}.column-list .card .btn-floating i{line-height:1.2em !important;font-size:0.7em}.column-list .input-field{margin-top:0em;padding-bottom:0.7em;padding-top:1.2em}.column-list .input-field label{margin-top:1.2em}.column-list .input-field .btn{float:right;font-size:0.5rem !important;width:50px;height:20px;padding:0.2rem;line-height:1rem}.column-list{height:100%;max-height:100%;width:100vw;overflow-x:auto;flex:1 0 auto}.column-list .row{display:flex;margin:1em 0}.column-list .row .col{margin-left:0 !important}.column-list .row .col .card{overflow-y:auto;height:calc(100vh - 13em)}.column-list .row .col .card-title{margin:0 !important;line-height:42px}.column-list .row .col .card-content{padding:1em}.column-list .row .col .card-action{padding:0.5em;margin:0}.progress{margin:0;background:transparent}body,main{display:flex;overflow:hidden}body{min-height:100vh;flex-direction:column}main{flex:1 0 auto}.page-footer{padding-top:0}
+.add-column {
+  z-index: 9;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 70%);
+  position: fixed;
+  right: 0;
+  top: 4.5em;
+  height: calc(100vh - 9em);
+  padding: 0 1em 0 1.5em;
+  display: flex;
+  align-items: center; }
+
+.column-list input {
+  line-height: 32px !important;
+  font-size: 24px !important;
+  font-weight: 300;
+  margin-bottom: 0 !important; }
+
+.column-list .card .btn-floating {
+  float: right;
+  height: 20px;
+  width: 20px;
+  line-height: 1.2em !important; }
+  .column-list .card .btn-floating i {
+    line-height: 1.2em !important;
+    font-size: 0.7em; }
+
+.column-list .input-field {
+  margin-top: 0em;
+  padding-bottom: 0.7em;
+  padding-top: 1.2em; }
+  .column-list .input-field label {
+    margin-top: 1.2em; }
+  .column-list .input-field .btn {
+    float: right;
+    font-size: 0.5rem !important;
+    width: 50px;
+    height: 20px;
+    padding: 0.2rem;
+    line-height: 1rem; }
+
+.column-list {
+  height: 100%;
+  max-height: 100%;
+  width: 100vw;
+  overflow-x: auto;
+  flex: 1 0 auto; }
+  .column-list .row {
+    display: flex;
+    margin: 1em 0; }
+    .column-list .row .col {
+      margin-left: 0 !important; }
+      .column-list .row .col .card {
+        overflow-y: auto;
+        height: calc(100vh - 13em); }
+      .column-list .row .col .card-title {
+        margin: 0 !important;
+        line-height: 42px; }
+      .column-list .row .col .card-content {
+        padding: 1em; }
+      .column-list .row .col .card-action {
+        padding: 0.5em;
+        margin: 0; }
+
+.progress {
+  margin: 0;
+  background: transparent; }
+
+body,
+main {
+  display: flex;
+  overflow: hidden; }
+
+body {
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+.page-footer {
+  padding-top: 0; }
 

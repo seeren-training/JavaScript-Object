@@ -20,7 +20,7 @@ ___
 
 Un composant à la responsabilité de produire un affichage et de gérer son interaction (les évènements en rapport avec son interaction). **Chaque composant possède un dossier qui lui est propre et contient au minimum une classe. Il est courant d'avoir un fichier de template et un fichier de style pour chaque composant** afin de ne pas stocker toutes ces informations dans le fichier JavaScript.
 
-![image](https://raw.githubusercontent.com/seeren-training/JavaScript-Object/master/wiki/resources/component.jpg)
+![image](https://raw.githubusercontent.com/seeren-training/JavaScript-Object/master/wiki/resources/component.png)
 
 Un composant n'est pas forcement une page, c'est un espace d'affichage qui peut être une partie de la page, cela dépend de votre découpe.
 
@@ -96,5 +96,3 @@ ___
 👨🏻‍💻 Manipulation
 
 Proposer une organisation en créant les fichiers pour chaque service de votre projet.
-
-___

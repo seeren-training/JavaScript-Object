@@ -20,7 +20,7 @@ ECMAScript est un ensemble de normes concernant les langages de programmation de
 
 Nommée ES2015, la version d'ECMAScript 6 a été publiée en juin 2015
 
-**Son support par les navigateurs évolue progressivement**, mais il est possible d'utiliser un compilateur (tel que Babel) vers ES5 pour développer dès aujourd'hui en ES6. 
+> Son support par les navigateurs évolue progressivement, mais il est possible d'utiliser un compilateur (tel que Babel) vers ES5 pour développer dès aujourd'hui en ES6. 
 
 ### 🏷️ **Compatibilité**
 
@@ -82,7 +82,7 @@ Les packages installés nécessitent une configuration à détailler.
 
 `Babel` a besoin d'une configuration, nous pouvons spécifier une configuration relative au fichier à la racine du répertoire du projet.
 
-*.babelrc`*
+* .babelrc
 
 ```js
 {
@@ -96,7 +96,7 @@ Les packages installés nécessitent une configuration à détailler.
 
 Nous devons étendre la configuration de configuration par défaut de `WebPack`, nous pouvons spécifier une configuration de fichier à la racine du projet. Nous allons spécifier les points d'entrée pour les fichiers JavaScript et Sass puis le répertoire de sortie. Nous allons spécifier des chargeurs puis configurer des plugins comme `BrowserSyncPlugin` pour le serveur de développement.
 
-*webpack.config.js*
+* webpack.config.js
 
 ```js
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -168,7 +168,7 @@ module.exports = {
 
 Nous pouvons spécifier des scripts dans le fichier package.json comme raccourci vers les instructions webpack cli dans l'attribut scripts.
 
-*package.json*
+* package.json
 
 ```json
 "scripts": {
@@ -196,7 +196,7 @@ La configuration attendue que vous ayez la structure de fichiers suivante, adapt
 
 Incorporez le style et le script dans le fichier index.html.
 
-*index.html*
+* index.html
 
 ```html
 <link rel="stylesheet" type="text/css" href="dist/app.css" />
@@ -215,6 +215,4 @@ ___
 
 👨🏻‍💻 Manipulation
 
-Installez, exécutez et décrivez votre environnement de développement
-
-___
+Installez, exécutez et décrivez votre environnement de développement.

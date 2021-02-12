@@ -248,7 +248,7 @@ ___
 
 ## 📑 [Ajax](https://api.jquery.com/jQuery.ajax/)
 
-Une fonctionnalité phare de cette librairie est le raccourcis syntaxique sur le concept ajax.
+> Une fonctionnalité phare de cette librairie est le raccourcis syntaxique sur le concept ajax.
 
 la méthode `ajax` prend en argument un objet qui décrit la requête. Syntaxiquement vous pouvez être en difficulté sur la suite mais le concept est assez simple.
 
