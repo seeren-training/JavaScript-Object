@@ -1,4 +1,4 @@
-# JavaScript Object
+# JavaScript Object - Les classes et JavaScript
 
 ## Durée
 
